@@ -6,7 +6,7 @@ from pydantic import BaseModel
 from dotenv import load_dotenv
 
 load_dotenv()
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+genai.configure(api_key=os.getenv("X-ZITH_API_KEY"))
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 app = FastAPI(title="X-ZITH API", description="AI by X-ZITH TECHNOLOGY")
