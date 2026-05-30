@@ -1,3 +1,27 @@
+# Python
 __pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual Environments
+env/
+venv/
+ENV/
+
+# Environment Variables (SECURITY)
 .env
-*.pyc
+.env.local
+.env.production
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
